@@ -117,6 +117,7 @@ a {
   text-decoration: underline;
 }
 
+/* reasons to buy flower */
 #reasons {
     margin-top: 5rem;
   text-align: center;
@@ -133,3 +134,39 @@ a {
   line-height: 2.5rem;
   font-size: 1.2rem;
 }
+
+/* hot deals */
+#deal{
+    background-color: #f4c0cb;
+    padding-top: 2rem; 
+    margin-top: 5rem;
+}
+
+#d-text {
+    text-align: left;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+    text-align: center;
+  }
+  
+  #d-text * {
+    margin-bottom: 1rem;
+  }
+  
+  #d-text h2 {
+    color: #000;
+  }
+  
+  #d-text p {
+    color: #2b2b2b;
+  }
+
+  #d-text .off{
+    color: #e55473;
+  }
+  
+  #d-image img {
+    height: 30rem;
+  }
