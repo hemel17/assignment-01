@@ -1,113 +1,135 @@
 /* google font */
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,200&display=swap");
 
 /* general styles */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
-    background-color: #2b2b2b;
-    font-size: 10px;
+body {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background-color: #2b2b2b;
+  font-size: 10px;
 }
 
-p{
-    color: #e1e1e1;
-    font-size: 0.8rem;
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
-a{
-    color: #fff;
-    text-decoration: none;
+h2 {
+  font-size: 1.5rem;
 }
 
-.container{
-    margin : auto 10%;
+p {
+  color: #e1e1e1;
+  font-size: 0.8rem;
 }
 
-.flex{
-    display: flex;
+a {
+  color: #fff;
+  text-decoration: none;
 }
 
-.btn{
-    background-color: #E55473;
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    cursor: pointer;
+.container {
+  margin: auto 10%;
+}
+
+.flex {
+  display: flex;
+}
+
+.btn {
+  background-color: #e55473;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.color{
+    color: #f4c0cb;
 }
 
 /* header */
-#head{
-    background-color: #f4c0cb;
-    padding-top: 2rem;
+#head {
+  background-color: #f4c0cb;
+  padding-top: 2rem;
 }
 
-#h-text{
-    text-align: left;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin-right: 3rem;
+#h-text {
+  text-align: left;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-right: 3rem;
 }
 
-#h-text *{
-    margin-bottom: 1rem;
+#h-text * {
+  margin-bottom: 1rem;
 }
 
-#h-text h1{
-    color: #000;
-    font-size: 2.5rem;
-    font-weight: 700;
+#h-text h1 {
+  color: #000;
 }
 
-#h-text p{
-    color: #2b2b2b;
+#h-text p {
+  color: #2b2b2b;
 }
 
-#h-image img{
-    height: 95vh;
+#h-image img {
+  height: 95vh;
 }
 
 /* featured flowers */
-#featured{
-    text-align: center;
+#featured {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+#featured * {
+  margin-bottom: 1rem;
+}
+
+#f-flowers section {
+  margin-top: 2rem;
+}
+
+#f-flowers section div {
+  height: 28rem;
+  width: 20rem;
+  background-color: #5b5b5b;
+  margin: 1rem;
+  border-radius: 20px;
+}
+
+#f-flowers section div img {
+  height: 25rem;
+  width: 15rem;
+}
+
+#f-flowers section p {
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+#reasons {
     margin-top: 5rem;
-}
+  text-align: center;
+}  
 
-#featured *{
-    margin-bottom: 1rem;
-}
-
-#featured h2{
-    font-size: 1.5rem;
-}
-
-#f-flowers section{
+#reasons ul{
+    background-color: #5b5b5b;
+    border-radius: 20px;
     margin-top: 2rem;
 }
 
-#f-flowers section div{
-    height: 28rem;
-    width: 20rem;
-    background-color: #5b5b5b;
-    margin: 1rem;
-    border-radius: 20px;
+#reasons ul li {
+  list-style-type: none;
+  line-height: 2.5rem;
+  font-size: 1.2rem;
 }
-
-#f-flowers section div img{
-    height: 25rem;
-    width: 15rem;
-}
-
-#f-flowers section p{
-    font-size: 1.2rem;
-    text-decoration: underline;
-}
-
-
