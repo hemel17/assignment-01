@@ -170,3 +170,18 @@ a {
   #d-image img {
     height: 30rem;
   }
+
+  /* social section */
+  #social{
+    margin-top: 5rem;
+    text-align: center;
+  }
+
+  #social p{
+    margin-top: 1rem;
+  }
+
+  #social-image img{
+    margin: 2%;
+    width: 20%;
+  }
