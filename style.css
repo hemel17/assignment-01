@@ -17,9 +17,11 @@ body{
 
 p{
     color: #e1e1e1;
+    font-size: 0.8rem;
 }
 
 a{
+    color: #fff;
     text-decoration: none;
 }
 
@@ -32,7 +34,6 @@ a{
 }
 
 .btn{
-    color: #fff;
     background-color: #E55473;
     padding: 10px 20px;
     border-radius: 10px;
@@ -48,7 +49,6 @@ a{
 }
 
 #h-text{
-    color: #000;
     text-align: left;
     flex-direction: column;
     align-items: flex-start;
@@ -61,16 +61,53 @@ a{
 }
 
 #h-text h1{
+    color: #000;
     font-size: 2.5rem;
     font-weight: 700;
 }
 
 #h-text p{
     color: #2b2b2b;
-    font-size: 0.8rem;
 }
 
 #h-image img{
     height: 95vh;
 }
+
+/* featured flowers */
+#featured{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#featured *{
+    margin-bottom: 1rem;
+}
+
+#featured h2{
+    font-size: 1.5rem;
+}
+
+#f-flowers section{
+    margin-top: 2rem;
+}
+
+#f-flowers section div{
+    height: 28rem;
+    width: 20rem;
+    background-color: #5b5b5b;
+    margin: 1rem;
+    border-radius: 20px;
+}
+
+#f-flowers section div img{
+    height: 25rem;
+    width: 15rem;
+}
+
+#f-flowers section p{
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
 

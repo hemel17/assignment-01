@@ -1,31 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- style sheet -->
-<link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- style sheet -->
+    <link rel="stylesheet" href="style.css" />
     <title>Flower Shop</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- header section -->
     <header id="head">
-        <section class="container flex">
-            <section id="h-text" class="flex">
-                <h1>Let's make 
-                    beautiful flowers a 
-                    part of your life.</h1>
-                    <p>It is a long established fact that a reader will be distracted by the readable 
-                        content of a page when looking at its layout. The point of using Lorem Ipsum is 
-                        that it has a more-or-less normal distribution of letters.</p>
-                        <button class="btn">Shop Now</button>
-            </section>
-            <section id="h-image">
-                <figure>
-                    <img src="assets/flower01.png" alt="a red Flower">
-                </figure>
-            </section>
+      <section class="container flex">
+        <!-- header texts -->
+        <section id="h-text" class="flex">
+          <h1>Let's make beautiful flowers a part of your life.</h1>
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters.
+          </p>
+          <button class="btn"><a href="#">Shop Now</a></button>
         </section>
+        <!-- header image -->
+        <section id="h-image">
+          <figure>
+            <img src="assets/flower01.png" alt="a red Flower" />
+          </figure>
+        </section>
+      </section>
     </header>
 
-</body>
+    <!-- main section -->
+    <main>
+      <!-- featured flowers -->
+      <section id="featured" class="container">
+        <h2>Our Featured Flowers</h2>
+        <p>
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout.
+        </p>
+        <section id="f-flowers" class="flex">
+          <section>
+            <div id="flower01">
+                <img src="assets/flower09.png" alt="a nice flower">
+              </div>
+              <p>Pink flower tree</p>
+          </section>
+          <section>
+            <div id="flower02">
+                <img src="assets/flower02.png" alt="a nice flower">
+              </div>
+              <p>Pink flower tree</p>
+          </section>
+          <section>
+            <div id="flower03">
+                <img src="assets/flower03.png" alt="a nice flower">
+              </div>
+              <p>Pink flower tree</p>
+          </section>
+        </section>
+      </section>
+    </main>
+  </body>
 </html>
