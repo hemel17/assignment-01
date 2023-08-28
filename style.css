@@ -185,3 +185,36 @@ a {
     margin: 2%;
     width: 20%;
   }
+
+  /* subscription section */
+  #subscription{
+    padding: 8rem;
+    margin-top: 5rem;
+    background-image: url(assets/rect.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #000;
+    text-align: center;
+  }
+
+#subscription p{
+    color: #2b2b2b;
+}
+
+  #subscription *{
+    margin-top: 1rem;
+  }
+
+#email{
+    font-size: 1.1rem;
+    line-height: 2rem;
+    border: none;
+    outline: none;
+    width: 55%;
+}
+
+  #subscription form *{
+    margin: 0.5rem;
+  }
+
+ 
