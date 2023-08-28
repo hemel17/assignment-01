@@ -51,8 +51,8 @@ a {
   cursor: pointer;
 }
 
-.color{
-    color: #f4c0cb;
+.color {
+  color: #f4c0cb;
 }
 
 /* header */
@@ -119,14 +119,14 @@ a {
 
 /* reasons to buy flower */
 #reasons {
-    margin-top: 5rem;
+  margin-top: 5rem;
   text-align: center;
-}  
+}
 
-#reasons ul{
-    background-color: #5b5b5b;
-    border-radius: 20px;
-    margin-top: 2rem;
+#reasons ul {
+  background-color: #5b5b5b;
+  border-radius: 20px;
+  margin-top: 2rem;
 }
 
 #reasons ul li {
@@ -136,85 +136,96 @@ a {
 }
 
 /* hot deals */
-#deal{
-    background-color: #f4c0cb;
-    padding-top: 2rem; 
-    margin-top: 5rem;
+#deal {
+  background-color: #f4c0cb;
+  padding-top: 2rem;
+  margin-top: 5rem;
 }
 
 #d-text {
-    text-align: left;
+  text-align: left;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem;
+  text-align: center;
+}
+
+#d-text * {
+  margin-bottom: 1rem;
+}
+
+#d-text h2 {
+  color: #000;
+}
+
+#d-text p {
+  color: #2b2b2b;
+}
+
+#d-text .off {
+  color: #e55473;
+}
+
+#d-image img {
+  height: 30rem;
+}
+
+/* social section */
+#social {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+#social p {
+  margin-top: 1rem;
+}
+
+#social-image img {
+  margin: 2%;
+  width: 20%;
+}
+
+/* subscription section */
+#subscription {
+  padding: 8rem;
+  margin-top: 5rem;
+  background-image: url(assets/rect.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000;
+  text-align: center;
+}
+
+#subscription p {
+  color: #2b2b2b;
+}
+
+#subscription * {
+  margin-top: 1rem;
+}
+
+#email {
+  font-size: 1.1rem;
+  line-height: 2rem;
+  border: none;
+  outline: none;
+  width: 55%;
+}
+
+#subscription form * {
+  margin: 0.5rem;
+}
+
+/* footer section */
+footer{
+    margin: 5rem;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 3rem;
-    text-align: center;
-  }
-  
-  #d-text * {
-    margin-bottom: 1rem;
-  }
-  
-  #d-text h2 {
-    color: #000;
-  }
-  
-  #d-text p {
-    color: #2b2b2b;
-  }
-
-  #d-text .off{
-    color: #e55473;
-  }
-  
-  #d-image img {
-    height: 30rem;
-  }
-
-  /* social section */
-  #social{
-    margin-top: 5rem;
-    text-align: center;
-  }
-
-  #social p{
-    margin-top: 1rem;
-  }
-
-  #social-image img{
-    margin: 2%;
-    width: 20%;
-  }
-
-  /* subscription section */
-  #subscription{
-    padding: 8rem;
-    margin-top: 5rem;
-    background-image: url(assets/rect.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #000;
-    text-align: center;
-  }
-
-#subscription p{
-    color: #2b2b2b;
 }
 
-  #subscription *{
-    margin-top: 1rem;
-  }
-
-#email{
-    font-size: 1.1rem;
-    line-height: 2rem;
-    border: none;
-    outline: none;
-    width: 55%;
+footer *{
+    margin-top: 1.5rem;
 }
-
-  #subscription form *{
-    margin: 0.5rem;
-  }
-
- 
